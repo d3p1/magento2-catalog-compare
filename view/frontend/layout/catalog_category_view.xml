@@ -13,7 +13,7 @@
         <referenceBlock name="category.product.addto">
             <block class="Magento\Catalog\Block\Product\ProductList\Item\AddTo\Compare"
                    name="category.product.addto.config.compare"
-                   template="Bina_CatalogCompare::catalog/product/list/addto/compare.phtml"
+                   template="D3p1_CatalogCompare::catalog/product/list/addto/compare.phtml"
                    ifconfig="catalog/compare/active"/>
         </referenceBlock>
     </body>

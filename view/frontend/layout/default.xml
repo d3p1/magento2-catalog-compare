@@ -33,7 +33,7 @@
         <referenceContainer name="sidebar.additional">
             <block class="Magento\Framework\View\Element\Template"
                    name="catalog.compare.config.sidebar"
-                   template="Bina_CatalogCompare::catalog/product/compare/sidebar.phtml"
+                   template="D3p1_CatalogCompare::catalog/product/compare/sidebar.phtml"
                    ifconfig="catalog/compare/active"/>
         </referenceContainer>
     </body>

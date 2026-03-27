@@ -5,6 +5,6 @@
  */
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Bina_CatalogCompare',
+    'D3p1_CatalogCompare',
     __DIR__
 );

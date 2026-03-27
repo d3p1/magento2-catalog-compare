@@ -14,7 +14,7 @@
             <block class="Magento\Catalog\Block\Product\View\AddTo\Compare"
                    name="view.addto.config.compare"
                    after="view.addto.wishlist"
-                   template="Bina_CatalogCompare::catalog/product/view/addto/compare.phtml"
+                   template="D3p1_CatalogCompare::catalog/product/view/addto/compare.phtml"
                    ifconfig="catalog/compare/active"/>
         </referenceBlock>
     </body>

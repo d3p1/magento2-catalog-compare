@@ -1,5 +1,5 @@
 {
-    "name": "bina/module-catalog-compare",
+    "name": "d3p1/module-catalog-compare",
     "description": "Catalog compare",
     "type": "magento2-module",
     "version": "1.2.0",
@@ -7,12 +7,12 @@
         "OSL-3.0",
         "AFL-3.0"
     ],
-    "homepage": "https://www.binacommerce.com",
+    "homepage": "https://www.d3p1.dev",
     "authors": [
         {
             "name": "C. M. de Picciotto",
-            "email": "cmdepicciotto@binacommerce.com",
-            "homepage": "https://www.binacommerce.com",
+            "email": "d3p1@d3p1.dev",
+            "homepage": "https://www.d3p1.dev",
             "role": "Leader"
         }
     ],
@@ -28,7 +28,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Bina\\CatalogCompare\\": ""
+            "D3p1\\CatalogCompare\\": ""
         }
     }
 }
