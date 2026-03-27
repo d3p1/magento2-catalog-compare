@@ -1,41 +1,21 @@
 <?xml version="1.0"?>
 <!--
 /**
- *
  * @description Catalog product view layout customizations
- *
- * @author Bina Commerce      <https://www.binacommerce.com>
- * @author C. M. de Picciotto <cmdepicciotto@binacommerce.com>
- *
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
 -->
 <page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-        <!--
-        /**
-         *
-         * @note Move compare feature to our custom compare block
-         *
-         */
-         -->
-        <move element="view.addto.compare" destination="view.addto.config.compare"/>
+        <move element="view.addto.compare"
+              destination="view.addto.config.compare"/>
 
-        <!--
-        /**
-         *
-         * @note Add to block
-         *
-         */
-        -->
         <referenceBlock name="product.info.addto">
-            <!--
-            /**
-             *
-             * @note Create custom compare block
-             *
-             */
-            -->
-            <block class="Magento\Catalog\Block\Product\View\AddTo\Compare" name="view.addto.config.compare" after="view.addto.wishlist" template="Bina_CatalogCompare::catalog/product/view/addto/compare.phtml" ifconfig="catalog/compare/active"/>
+            <block class="Magento\Catalog\Block\Product\View\AddTo\Compare"
+                   name="view.addto.config.compare"
+                   after="view.addto.wishlist"
+                   template="Bina_CatalogCompare::catalog/product/view/addto/compare.phtml"
+                   ifconfig="catalog/compare/active"/>
         </referenceBlock>
     </body>
 </page>

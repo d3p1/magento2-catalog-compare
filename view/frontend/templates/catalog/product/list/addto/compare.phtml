@@ -1,36 +1,21 @@
 <?php
 /**
- *
  * @description Catalog product list compare template
- *
- * @author Bina Commerce      <https://www.binacommerce.com>
- * @author C. M. de Picciotto <cmdepicciotto@binacommerce.com>
- *
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
 ?>
 
 <?php
 /**
- *
  * @var \Magento\Catalog\Block\Product\ProductList\Item\AddTo\Compare $block
- *
  */
 ?>
 
 <?php
 /**
- *
  * @var \Magento\Catalog\Block\Product\ProductList\Item\AddTo\Compare $compareBlock
- *
  */
 ?>
 <?php $compareBlock = $block->getChildBlock('compare'); ?>
 
-<?php
-/**
- *
- * @note Render HTML
- *
- */
-?>
 <?php echo $compareBlock->setProduct($block->getProduct())->toHtml(); ?>

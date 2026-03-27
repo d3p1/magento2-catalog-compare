@@ -1,41 +1,20 @@
 <?xml version="1.0"?>
 <!--
 /**
- *
  * @description Catalog search advanced result index layout customizations
- *
- * @author Bina Commerce      <https://www.binacommerce.com>
- * @author C. M. de Picciotto <cmdepicciotto@binacommerce.com>
- *
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-        <!--
-        /**
-         *
-         * @note Move compare feature to our custom compare block
-         *
-         */
-         -->
-        <move element="catalogsearch.product.addto.compare" destination="catalogsearch.product.addto.config.compare"/>
+        <move element="catalogsearch.product.addto.compare"
+              destination="catalogsearch.product.addto.config.compare"/>
 
-        <!--
-        /**
-         *
-         * @note Add to block
-         *
-         */
-        -->
         <referenceBlock name="catalogsearch.product.addto">
-            <!--
-            /**
-             *
-             * @note Create custom compare block
-             *
-             */
-            -->
-            <block class="Magento\Catalog\Block\Product\ProductList\Item\AddTo\Compare" name="catalogsearch.product.addto.config.compare" template="Bina_CatalogCompare::catalog/product/list/addto/compare.phtml" ifconfig="catalog/compare/active"/>
+            <block class="Magento\Catalog\Block\Product\ProductList\Item\AddTo\Compare"
+                   name="catalogsearch.product.addto.config.compare"
+                   template="Bina_CatalogCompare::catalog/product/list/addto/compare.phtml"
+                   ifconfig="catalog/compare/active"/>
         </referenceBlock>
     </body>
 </page>

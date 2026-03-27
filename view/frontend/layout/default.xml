@@ -1,50 +1,23 @@
 <?xml version="1.0"?>
 <!--
 /**
- *
  * @description Default layout customizations
- *
- * @author Bina Commerce      <https://www.binacommerce.com>
- * @author C. M. de Picciotto <cmdepicciotto@binacommerce.com>
- *
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-        <!--
-        /**
-         *
-         * @note Remove compare link feature to be replaced by our custom one
-         *
-         */
-        -->
         <referenceBlock name="catalog.compare.link" remove="true"/>
 
-        <!--
-        /**
-         *
-         * @note Move compare sidebar to our custom compare sidebar block
-         *
-         */
-        -->
-        <move element="catalog.compare.sidebar" destination="catalog.compare.config.sidebar"/>
+        <move element="catalog.compare.sidebar"
+              destination="catalog.compare.config.sidebar"/>
 
-        <!--
-        /**
-         *
-         * @note Top links
-         *
-         */
-        -->
         <referenceBlock name="top.links">
-            <!--
-            /**
-             *
-             * @note Create custom compare link block
-             *
-             */
-            -->
-            <block class="Magento\Framework\View\Element\Template" name="catalog.compare.config.link" template="Magento_Catalog::product/compare/link.phtml" before="-" ifconfig="catalog/compare/active">
+            <block class="Magento\Framework\View\Element\Template"
+                   name="catalog.compare.config.link"
+                   template="Magento_Catalog::product/compare/link.phtml"
+                   before="-"
+                   ifconfig="catalog/compare/active">
                 <arguments>
                     <argument name="jsLayout" xsi:type="array">
                         <item name="components" xsi:type="array">
@@ -57,22 +30,11 @@
             </block>
         </referenceBlock>
 
-        <!--
-        /**
-         *
-         * @note Sidebar additional container
-         *
-         */
-        -->
         <referenceContainer name="sidebar.additional">
-            <!--
-            /**
-             *
-             * @note Create custom compare sidebar block
-             *
-             */
-            -->
-            <block class="Magento\Framework\View\Element\Template" name="catalog.compare.config.sidebar" template="Bina_CatalogCompare::catalog/product/compare/sidebar.phtml" ifconfig="catalog/compare/active"/>
+            <block class="Magento\Framework\View\Element\Template"
+                   name="catalog.compare.config.sidebar"
+                   template="Bina_CatalogCompare::catalog/product/compare/sidebar.phtml"
+                   ifconfig="catalog/compare/active"/>
         </referenceContainer>
     </body>
 </page>

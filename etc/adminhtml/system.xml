@@ -1,41 +1,16 @@
 <?xml version="1.0"?>
 <!--
 /**
- *
  * @description System configuration
- *
- * @author Bina Commerce      <https://www.binacommerce.com>
- * @author C. M. de Picciotto <cmdepicciotto@binacommerce.com>
- *
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <!--
-        /**
-         *
-         * @note 'Catalog' section
-         *
-         */
-        -->
         <section id="catalog">
-            <!--
-            /**
-             *
-             * @note Add 'Product Compare' group
-             *
-             */
-            -->
             <group id="compare" translate="label" type="text" sortOrder="101" showInDefault="1" showInWebsite="1" showInStore="0">
                 <label>Product Compare</label>
 
-                <!--
-                /**
-                 *
-                 * @note 'Enabled' field
-                 *
-                 */
-                -->
                 <field id="active" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
                     <label>Enabled</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
