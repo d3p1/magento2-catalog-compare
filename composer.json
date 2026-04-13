@@ -3,8 +3,7 @@
     "description": "Catalog compare",
     "type": "magento2-module",
     "license": [
-        "OSL-3.0",
-        "AFL-3.0"
+        "MIT"
     ],
     "homepage": "https://www.d3p1.dev",
     "authors": [
