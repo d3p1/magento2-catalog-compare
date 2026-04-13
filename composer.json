@@ -2,7 +2,6 @@
     "name": "d3p1/module-catalog-compare",
     "description": "Catalog compare",
     "type": "magento2-module",
-    "version": "1.2.0",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
