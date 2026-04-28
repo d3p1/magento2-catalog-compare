@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/d3p1/magento2-catalog-compare/compare/v1.0.0...v1.1.0) (2026-04-28)
+
+
+### Features
+
+* improve module folder structure [[#1](https://github.com/d3p1/magento2-catalog-compare/issues/1)] ([e800931](https://github.com/d3p1/magento2-catalog-compare/commit/e8009316cbde2c3e361f68fa75b4cfa729ad2f4e))
+
 # 1.0.0 (2026-04-28)
 
 
