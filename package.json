@@ -1,6 +1,6 @@
 {
   "name": "@d3p1/module-catalog-compare",
-  "version": "1.2.4",
+  "version": "1.0.0",
   "description": "Catalog compare",
   "private": true,
   "scripts": {
