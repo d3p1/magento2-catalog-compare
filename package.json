@@ -1,0 +1,27 @@
+{
+  "name": "@d3p1/module-catalog-compare",
+  "version": "1.2.4",
+  "description": "Catalog compare",
+  "private": true,
+  "scripts": {
+    "format:code": "prettier --check src",
+    "format:code:fix": "npm run format:code -- --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3p1/magento2-catalog-compare.git"
+  },
+  "author": "C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d3p1/magento2-catalog-compare/issues"
+  },
+  "homepage": "https://github.com/d3p1/magento2-catalog-compare#readme",
+  "keywords": [],
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@d3p1/commitlint-config": "^1.0.0",
+    "husky": "^8.0.3",
+    "prettier": "3.0.3"
+  }
+}
