@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/d3p1/magento2-catalog-compare/compare/v1.1.2...v1.1.3) (2026-05-06)
+
+
+### Bug Fixes
+
+* improve code style [[#1](https://github.com/d3p1/magento2-catalog-compare/issues/1)] ([889333f](https://github.com/d3p1/magento2-catalog-compare/commit/889333fedbad29954e63d7406f8f634cde822a28))
+
 ## [1.1.2](https://github.com/d3p1/magento2-catalog-compare/compare/v1.1.1...v1.1.2) (2026-05-06)
 
 
